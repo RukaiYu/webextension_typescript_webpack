@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "imports-loader": "^0.8.0",
     "ts-loader": "^5.2.1",
     "typescript": "^3.0.3",
     "webextension-polyfill": "^0.3.1",

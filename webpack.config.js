@@ -18,10 +18,19 @@ module.exports = {
             test: /\.tsx?$/,
             exclude: /(node_modules|bower_components)/,
             use: 'ts-loader'
-        }]
+        },
+        {
+            test: require.resolve('webextension-polyfill'),
+            use: 'imports-loader?browser=>undefined'
+          }]
     },
     resolve: {
         extensions: ['.ts', '.tsx', '.js']
     },
+    plugins:[
+        new webpack.ProvidePlugin({
+            browser: "webextension-polyfill"
+        })
+    ],
     devtool: "inline-source-map"
 };
