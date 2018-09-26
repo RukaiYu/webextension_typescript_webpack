@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+  
+    "name": "webextension_typescript_webpack",
+    "description": "A template for webextensions based on typescript and webpack",
+    "version": "1.0",
+  
+    "icons": { 
+      "16": "icon.png",
+      "48": "icon.png",
+     "128": "icon.png" 
+    },
+  
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content_script.js"]
+        }
+    ],
+  
+    "background": {
+      "scripts": ["js/background.js"]
+    },
+  
+    "permissions": [
+      "storage",
+      "<all_urls>"
+    ]
+  }
