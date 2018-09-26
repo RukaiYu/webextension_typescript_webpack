@@ -1,8 +1,8 @@
 {
     "manifest_version": 2,
   
-    "name": "Chrome Extension TypeScript Starter",
-    "description": "Chrome Extension, TypeScript, Visual Studio Code",
+    "name": "webextension_typescript_webpack",
+    "description": "A template for webextensions based on typescript and webpack",
     "version": "1.0",
   
     "icons": { 
