@@ -14,7 +14,7 @@ Now you can load the extension into your Browser. Tested on Firefox and Chrome.
 Just edit `package.json` and `manifest.json`, then you should be good to go :)
 
 ### Please note
-To support chrome, I have used webextension-polyfill. Getting this to work with webpack.ProvidePlugin is not trivial.
+To support chrome, I have used `webextension-polyfill`. Getting this to work with `webpack.ProvidePlugin` is not trivial.\
 Don't worry, it should work out of the box. Thanks to this great reference: https://github.com/fstanis/webextensions-webpack-boilerplate
 
 If you want to read up on it: https://github.com/mozilla/webextension-polyfill/pull/86
