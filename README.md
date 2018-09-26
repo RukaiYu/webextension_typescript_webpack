@@ -11,7 +11,7 @@ I have installed only the bare minimum of required packages and tried to keep th
 Now you can load the extension into your Browser. Tested on Firefox and Chrome.
 
 ### Customizing
-Just edit package.json and manifest.json and you should be good to go.
+Just edit `package.json` and `manifest.json`, then you should be good to go :)
 
 ### Please note
 To support chrome, I have used webextension-polyfill. Getting this to work with webpack.ProvidePlugin is not trivial.
