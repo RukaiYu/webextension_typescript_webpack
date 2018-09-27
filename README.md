@@ -6,6 +6,7 @@ I have installed only the bare minimum of required packages and tried to keep th
 ### Getting started
  - `git clone https://github.com/lhk/webextension_typescript_webpack.git`
  - `npm install -d`
+ - `sudo npm install -g webpack webpack-cli`
  - `webpack`
  
 Now you can load the extension into your Browser. Tested on Firefox and Chrome.
