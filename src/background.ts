@@ -8,7 +8,10 @@ function main(){
     // here we communicate with the content script
     browser.runtime.onMessage.addListener((message, sender, sendResponse)=>{
       numberContentScripts++;
-      sendResponse(`wow, you have executed the content_script for ${numberContentScripts} times`);
+      return new Promise(resolve=>{
+        resolve(`wow, you have executed the content_script for ${numberContentScripts} times`);
+      })
+      //sendResponse(`wow, you have executed the content_script for ${numberContentScripts} times`);
     });
 }
 
