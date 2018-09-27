@@ -12,11 +12,11 @@
     "imports-loader": "^0.8.0",
     "ts-loader": "^5.2.1",
     "typescript": "^3.0.3",
-    "webextension-polyfill": "^0.3.1",
-    "webpack": "^4.20.2",
-    "webpack-cli": "^3.1.1"
+    "webextension-polyfill": "^0.3.1"
   },
   "devDependencies": {
-    "@types/firefox-webext-browser": "^58.0.4"
+    "@types/firefox-webext-browser": "^58.0.4",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
   }
 }
