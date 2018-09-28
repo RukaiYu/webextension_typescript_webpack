@@ -8,10 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^3.0.3"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-plugin-web-extension": "^1.4.0"
+    "parcel-plugin-web-extension": "^1.4.0",
+    "typescript": "^3.1.1"
   }
 }
