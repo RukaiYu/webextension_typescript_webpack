@@ -1,4 +1,6 @@
 import { happy } from "./util"
+//import browser from "webextension-polyfill"
+import browser = require("webextension-polyfill");
 
 // the state of the background script is permanent.
 let numberContentScripts = 0;

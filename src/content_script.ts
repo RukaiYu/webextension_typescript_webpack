@@ -1,4 +1,6 @@
 import { happy } from "./util";
+//import browser from "webextension-polyfill"
+import browser = require("webextension-polyfill");
 
 // communicate with the background script
 browser.runtime.sendMessage({message: "content script executed"}).then( response => {
